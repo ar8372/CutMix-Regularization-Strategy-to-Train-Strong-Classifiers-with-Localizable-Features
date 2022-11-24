@@ -14,7 +14,7 @@ Through this project we will try to understand CutMix Paper by implementing it o
 ## Implementation
 I have used keras to implement the cutmix augmentation. 
 Dataset used: https://www.kaggle.com/competitions/dogs-vs-cats/data. <br>
-In CutMix we mix two images and their labels respectively in order to generate new data point. So I have created a custom datagenerator. This custom datagenerator takes two batches from two seperate keras datagenerator and returns one batch by applying cutmix on it.<br>
+In CutMix we mix two images and their labels respectively in order to generate new data point. So I have created a custom datagenerator. This custom datagenerator takes batches from two seperate keras datagenerator and returns one batch by applying cutmix on it.<br>
 >train datagenerator (custom) 
 ```
 train_dataset = CutMixImageDataGenerator(
