@@ -40,6 +40,10 @@ valid_dataset = valid_datagen.flow_from_dataframe(
 ```    
 
 ## Results
+CutMix augmentation Final output: 
+<p>
+    <img src="resources/6.png" />
+</p>
 
 ## Reference
 - original paper: https://arxiv.org/abs/1905.04899
