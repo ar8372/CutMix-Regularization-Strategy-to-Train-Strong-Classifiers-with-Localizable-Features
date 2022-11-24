@@ -48,5 +48,7 @@ Score | loss: 0.7671 - acc: 0.6406 <br> val_loss: 0.9630 - val_acc: 0.6445 | los
 #epochs | 50 | 50
 Early Stop | 28 | 15
 
+## Conclusion
+We have two notebooks ```1. Without CutMix``` and ```2. With CutMix```. Both notebooks have everything exactly same(```seed, batchsize, #epochs, rescaling etc```) only except the training datagenerator. And we notice that using CutMix augmentation has really improved the ```validation score``` making the model more regularized and robust in comparision to model which is trained without using CutMix augmentation.
 ## Reference
 - original paper: https://arxiv.org/abs/1905.04899
