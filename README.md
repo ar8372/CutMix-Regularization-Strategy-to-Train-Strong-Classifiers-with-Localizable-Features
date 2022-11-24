@@ -40,9 +40,13 @@ valid_dataset = valid_datagen.flow_from_dataframe(
 ```    
 
 ## Results
+Without CutMix             |  With CutMix
+:-------------------------:|:-------------------------:
+![](resources/0.png)  |  ![](resources/1.png)
+
 CutMix augmentation Final output: 
 <p>
-    <img src="resources/6.png" />
+    <img src="resources/1.png" />
 </p>
 
 ## Reference
