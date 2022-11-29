@@ -42,7 +42,7 @@ valid_dataset = valid_datagen.flow_from_dataframe(
 ## Results
 Type            |  Without CutMix              |  With CutMix
 :------------:|:-------------------------:|:-------------------------:
-Cutmix Output |  ![](resources/0.png)          |  ![](resources/1.png)
+Output |  ![](resources/0.png)          |  ![](resources/1.png)
 Training and Validation Accuracy plot|  ![](resources/3.png)          |  ![](resources/2.png)
 Score | loss: 0.7671 - acc: 0.6406 <br> val_loss: 0.9630 - val_acc: 0.6445 | loss: 0.1226 - acc: 0.9538 <br> val_loss: 0.4688 - val_acc: 0.8438
 #epochs | 50 | 50
